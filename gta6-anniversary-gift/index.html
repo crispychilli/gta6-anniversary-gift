@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13051f">
+  <title>给畅畅宝的周年礼物</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="gift-shell" id="giftShell">
+    <div class="sun" aria-hidden="true"></div>
+    <div class="grid" aria-hidden="true"></div>
+    <div class="sparkles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+    <section class="intro" id="intro" aria-labelledby="introTitle">
+      <p class="eyebrow">ANNIVERSARY DROP · 02</p>
+      <h1 id="introTitle">畅畅宝，<br>你有一份礼物待开启</h1>
+      <p class="subline">来自漂亮佳佳的周年限定补给</p>
+      <button class="open-button" id="openGift" type="button">
+        <span>开启礼物</span><b>↗</b>
+      </button>
+      <p class="hint">点击开启，领取你的专属奖励</p>
+    </section>
+
+    <section class="reveal" id="reveal" aria-live="polite" aria-labelledby="giftTitle">
+      <p class="eyebrow">CONGRATULATIONS · UNLOCKED</p>
+      <div class="game-card">
+        <div class="shine" aria-hidden="true"></div>
+        <img src="assets/gta6-cover.png" alt="Grand Theft Auto VI 游戏封面">
+      </div>
+      <div class="message-card">
+        <span class="tag">ULTIMATE EDITION</span>
+        <h2 id="giftTitle">恭喜您获得<br><em>《GTA VI》游戏终极版！</em></h2>
+        <div class="divider"><span></span><b>♥</b><span></span></div>
+        <p>结婚 2 周年快乐！</p>
+        <small>FOR 畅畅宝 · FROM 漂亮佳佳</small>
+      </div>
+      <button class="again" id="again" type="button">再看一次惊喜</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
